@@ -14,7 +14,7 @@
         </extensions>
       </storageModule>
       <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-        <configuration artifactExtension="out" artifactName="Fixed_LT_FIFO" buildProperties="" description="ETSI" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.537208527" name="433MHz_Alarm" parent="com.ti.ccstudio.buildDefinitions.MSP430.Debug">
+        <configuration artifactExtension="out" artifactName="smoke-temp-alarm" buildProperties="" description="3-byte: temperature + smoke alarm" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.537208527" name="433MHz_Alarm" parent="com.ti.ccstudio.buildDefinitions.MSP430.Debug">
           <folderInfo id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.537208527.690450757" name="/" resourcePath="">
             <toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_18.1.exe.DebugToolchain.1862345691" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_18.1.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_18.1.exe.linkerDebug.1368452257">
               <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1484961029" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
@@ -114,7 +114,7 @@
         </extensions>
       </storageModule>
       <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-        <configuration artifactExtension="out" artifactName="Fixed_LT_FIFO" buildProperties="" description="FCC" id="com.ti.ccstudio.buildDefinitions.MSP430.Release.2052942365" name="433MHz_Raw" parent="com.ti.ccstudio.buildDefinitions.MSP430.Release">
+        <configuration artifactExtension="out" artifactName="smoke-temp-raw" buildProperties="" description="5-byte: raw smoke value + temperature" id="com.ti.ccstudio.buildDefinitions.MSP430.Release.2052942365" name="433MHz_Raw" parent="com.ti.ccstudio.buildDefinitions.MSP430.Release">
           <folderInfo id="com.ti.ccstudio.buildDefinitions.MSP430.Release.2052942365.2126725609" name="/" resourcePath="">
             <toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_4.1.exe.ReleaseToolchain.105939129" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_4.1.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_4.1.exe.linkerRelease.996926623">
               <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1214486576" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
