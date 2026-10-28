@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this firmware, please cite the paper listed in preferred-citation."
+title: "Droplet Energy Harvesting Panel: Wireless Smoke/Temperature Sensor Firmware"
+abstract: >-
+  Firmware for a self-powered wireless smoke/temperature sensor node based on
+  the TI CC430F5137, an internal temperature sensor, and a MAX30105 optical
+  smoke sensor. A CC430F6137 receiver forwards the measurements over UART to
+  VOFA+. Two build configurations provide either a 3-byte temperature + smoke
+  alarm packet or a 5-byte raw smoke + temperature packet.
+type: software
+authors:
+  - family-names: Xu
+    given-names: Xiaote
+  - family-names: Li
+    given-names: Pengyu
+  - family-names: Ding
+    given-names: Yongtao
+  - family-names: Xu
+    given-names: Wanghuai
+  - family-names: Liu
+    given-names: Shiyuan
+  - family-names: Zhang
+    given-names: Zhuomin
+  - family-names: Wang
+    given-names: Zuankai
+  - family-names: Yang
+    given-names: Zhengbao
+year: 2022
+license: MIT
+repository-code: "https://github.com/plxxch/droplet-energy-harvesting-panel"
+keywords:
+  - droplet energy harvesting
+  - battery-free
+  - smoke sensor
+  - MAX30105
+  - CC430F5137
+  - wireless sensor
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Xu
+      given-names: Xiaote
+    - family-names: Li
+      given-names: Pengyu
+    - family-names: Ding
+      given-names: Yongtao
+    - family-names: Xu
+      given-names: Wanghuai
+    - family-names: Liu
+      given-names: Shiyuan
+    - family-names: Zhang
+      given-names: Zhuomin
+    - family-names: Wang
+      given-names: Zuankai
+    - family-names: Yang
+      given-names: Zhengbao
+  title: "Droplet energy harvesting panel"
+  year: 2022
+  journal: "Energy & Environmental Science"
+  volume: 15
+  issue: 7
+  start: 2916
+  end: 2926
+  doi: "10.1039/d2ee00357k"

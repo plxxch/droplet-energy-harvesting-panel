@@ -1,0 +1,34 @@
+# Code Composer Studio build output
+**/MHZ_868/
+**/MHZ_915/
+**/Debug/
+**/Release/
+**/*.obj
+**/*.out
+**/*.map
+**/*.d
+**/*.d_raw
+**/*.opt
+**/*.linkInfo.xml
+**/ccsObjs.opt
+**/makefile
+**/subdir_rules.mk
+**/subdir_vars.mk
+**/sources.mk
+**/objects.mk
+**/optimizerAssistant/
+
+# Per-user CCS / Eclipse state
+**/.launches/
+**/.metadata/
+*.launch
+
+# Exported project backups
+**/*_initial
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
